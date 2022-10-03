@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(resim2.jpg);
+    background-image: url(resim.jpg);
      font-family: sans-serif;
 }
 
@@ -88,4 +88,14 @@ body{
     margin-left: 140px;
     background-color: rgb(227, 123, 49);
     border-radius: 15px;
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgb(62, 58, 58);
+    text-align: center;
+    color: white;
+    
 }
