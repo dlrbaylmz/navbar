@@ -39,3 +39,53 @@ body{
 .menu .fas{
     margin-right: 8px;
 }
+
+.sub1{
+    display: none;
+}
+.menu ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background-color: rgb(227, 123, 49);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 15px;
+    font-size: 10px;
+
+}
+
+.menu ul li:hover .sub1 ul{
+    display: block;
+
+}
+.menu ul li:hover .sub1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu ul li:hover .sub1 ul li a:hover{
+    color: rgb(238, 204, 79);
+    transition: 0.5s;
+}
+
+.fa-caret-right{
+    font-size: 15px;
+    color: white;
+    float: right;
+}
+
+.sub2{
+    display: none;
+}
+
+.hovers:hover .sub2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: rgb(227, 123, 49);
+    border-radius: 15px;
+}
